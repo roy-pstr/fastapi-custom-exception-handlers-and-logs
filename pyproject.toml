@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-exceptions-template"
+version = "0.1.0"
+description = "This is a template FastAPI application with exception handling best practices"
+authors = ["Roy Pasternak <roy@larium.co>"]
+readme = "README.md"
+packages = [{include = "fastapi_exceptions_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.89.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
