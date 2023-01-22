@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "fastapi-exceptions-template"
 version = "0.1.0"
-description = "This is a template FastAPI application with exception handling best practices"
+description = "This repository demonstrate a way to override FastAPI default exception handlers and logs with your own"
 authors = ["Roy Pasternak <roy@larium.co>"]
 readme = "README.md"
 packages = [{include = "fastapi_exceptions_template"}]
