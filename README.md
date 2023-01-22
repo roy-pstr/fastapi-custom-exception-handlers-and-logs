@@ -17,3 +17,5 @@ poetry install
 poetry run uvicorn main:app --reload
 ```
 
+## Medium Post
+https://medium.com/@roy-pstr/fastapi-server-errors-and-logs-take-back-control-696405437983
